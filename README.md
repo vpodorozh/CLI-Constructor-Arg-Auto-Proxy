@@ -32,9 +32,12 @@ category: System
 
 ### Structure:
 Project consists of 3 packages:
-* **Magento 2 Component:** `vpodorozh/cli-construct-arg-auto-proxy-component` - provides entry point to Magento via global DI config. See [README](component/README.md);
-* **Library:** `vpodorozh/cli-construct-arg-auto-proxy-lib` - contains main logic about Proxy injection. See [README](lib/README.md);
-* **Metapackage:** `vpodorozh/cli-construct-arg-auto-proxy-meta` - main package to use, orchestrate project versions.
+* [**Magento 2 Component:**](https://github.com/vpodorozh/Cli-Constructor-Arg-Auto-Proxy-Component) `vpodorozh/cli-construct-arg-auto-proxy-component`  
+Provides entry point to Magento via global DI config.
+* [**Library:**](https://github.com/vpodorozh/Cli-Constructor-Arg-Auto-Proxy-Lib) `vpodorozh/cli-construct-arg-auto-proxy-lib`  
+Contains main logic about Proxy injection into CLI constructor args;
+* **Metapackage:** `vpodorozh/cli-construct-arg-auto-proxy-meta`  
+Main package, orchestrate project from versioning and tracking points.
 
 ## Getting Started
 
@@ -55,6 +58,7 @@ composer req vpodorozh/cli-construct-arg-auto-proxy-meta:*
 
 - [x] MVP release
 - [x] Documentation
+- [ ] PHP 8 support (mostl likely supported already :suspect: )
 - [ ] Unit tests coverage
 - [ ] Static tests coverage
   - [ ] php linting
