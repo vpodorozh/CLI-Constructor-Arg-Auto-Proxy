@@ -1,0 +1,13 @@
+{
+  "name": "vpodorozh/cli-construct-arg-auto-proxy-meta",
+  "description": "Makes all Magento CLI commands construct dependencies be injected as Proxy.",
+  "version": "1.0.0",
+  "type": "metapackage",
+  "require": {
+    "vpodorozh/cli-construct-arg-auto-proxy-lib": "1.0.0",
+    "vpodorozh/cli-construct-arg-auto-proxy-component": "1.0.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
